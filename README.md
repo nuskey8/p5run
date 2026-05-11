@@ -3,6 +3,8 @@ A CLI tool for p5.js live coding.
 
 p5run is a CLI tool for running [p5.js](https://p5js.org/) locally. It allows you to start a live server that renders a single JS file directly without the need for an HTML file.
 
+![demo](./assets/demo.gif)
+
 ## Features
 
 - Render p5.js with a single JS file
