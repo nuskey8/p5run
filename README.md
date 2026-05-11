@@ -9,6 +9,14 @@ p5run is a CLI tool for running [p5.js](https://p5js.org/) locally. It allows yo
 - Supports hot reloading
 - Supports TypeScript
 
+## Installation
+
+To use p5run, you need Bun runtime version 1.1.0 or later. You can install it using the following command.
+
+```bash
+$ bun install -g p5run
+```
+
 ## Usage
 
 ```bash
