@@ -5,7 +5,6 @@
     "": {
       "name": "p5run",
       "dependencies": {
-        "bun-html-live-reload": "^1.0.4",
         "escape-html": "^1.0.3",
       },
       "devDependencies": {
@@ -23,8 +22,6 @@
     "@types/escape-html": ["@types/escape-html@1.0.4", "", {}, "sha512-qZ72SFTgUAZ5a7Tj6kf2SHLetiH5S6f8G5frB2SPQ3EyF02kxdyBFf4Tz4banE3xCgGnKgWLt//a6VuYHKYJTg=="],
 
     "@types/node": ["@types/node@25.6.2", "", { "dependencies": { "undici-types": "~7.19.0" } }, "sha512-sokuT28dxf9JT5Kady1fsXOvI4HVpjZa95NKT5y9PNTIrs2AsobR4GFAA90ZG8M+nxVRLysCXsVj6eGC7Vbrlw=="],
-
-    "bun-html-live-reload": ["bun-html-live-reload@1.0.4", "", {}, "sha512-8VF9aK4SXeOcxVhEzI+Ila0iEt4jt2xSZP9JMqG3gDWYRjTCUkqfBonms+50ELryk+MAa8tpDf5Ik8PwbHalUw=="],
 
     "bun-types": ["bun-types@1.3.13", "", { "dependencies": { "@types/node": "*" } }, "sha512-QXKeHLlOLqQX9LgYaHJfzdBaV21T63HhFJnvuRCcjZiaUDpbs5ED1MgxbMra71CsryN/1dAoXuJJJwIv/2drVA=="],
 
