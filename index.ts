@@ -1,6 +1,6 @@
 #!/usr/bin/env bun
 
-import { reload, withHtmlLiveReload } from "bun-html-live-reload";
+import { withHtmlLiveReload } from "bun-html-live-reload";
 import { existsSync, readFileSync, watch } from "node:fs";
 import { networkInterfaces } from "node:os";
 import path, { basename, dirname, extname, resolve } from "node:path";
@@ -210,7 +210,7 @@ function scheduleRebuild(entry: string) {
   buildTimer = setTimeout(async () => {
     const success = await rebuild(entry);
     if (success) {
-      reload();
+      location.reload();
       return;
     }
   }, 50);
