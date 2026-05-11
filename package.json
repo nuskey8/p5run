@@ -1,6 +1,6 @@
 {
   "name": "p5run",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Bun CLI for live-reloading p5.js sketches.",
   "module": "index.ts",
   "type": "module",
@@ -13,13 +13,13 @@
   },
   "devDependencies": {
     "@types/bun": "latest",
-    "@types/escape-html": "^1.0.4",
-    "bun-html-live-reload": "^1.0.4"
+    "@types/escape-html": "^1.0.4"
   },
   "peerDependencies": {
     "typescript": "^5"
   },
   "dependencies": {
-    "escape-html": "^1.0.3"
+    "escape-html": "^1.0.3",
+    "bun-html-live-reload": "^1.0.4"
   }
 }
