@@ -1,6 +1,6 @@
 {
   "name": "p5run",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "description": "A CLI tool for p5.js live coding.",
   "module": "index.ts",
   "type": "module",
