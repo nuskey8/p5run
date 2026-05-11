@@ -1,7 +1,7 @@
 {
   "name": "p5run",
   "version": "0.1.2",
-  "description": "A Bun CLI for live-reloading p5.js sketches.",
+  "description": "A CLI tool for p5.js live coding.",
   "module": "index.ts",
   "type": "module",
   "bin": {
